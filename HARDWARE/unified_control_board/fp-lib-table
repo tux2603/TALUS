@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "button")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/button/footprints.pretty")(options "")(descr ""))
+  (lib (name "xtal")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/xtal/footprints.pretty")(options "")(descr ""))
+  (lib (name "mosfet")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/mosfet/footprints.pretty")(options "")(descr ""))
+  (lib (name "screw_termin")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/power/footprints.pretty")(options "")(descr ""))
+  (lib (name "level_shifter")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/level_shifter/footprints.pretty")(options "")(descr ""))
+)

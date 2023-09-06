@@ -1,0 +1,7 @@
+# kicad ignores
+*-backups
+gerbers.zip
+_autosave*
+\#auto_saved_files#
+report.txt
+~*.lck
