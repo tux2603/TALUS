@@ -379,18 +379,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -400,6 +405,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -411,7 +417,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "unified_drive_board.kicad_pro",
+    "filename": "unified_control_board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -492,390 +498,6 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Other Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Other Power",
-        "pattern": "Net-(C3-Pad2)"
-      },
-      {
-        "netclass": "Other Power",
-        "pattern": "VDD"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA1"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA10"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA11"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA12"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA13"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA14"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA15"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA16"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA17"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA18"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA19"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA2"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA20"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA21"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA22"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA23"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA24"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA25"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA26"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA27"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA28"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA29"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA3"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA30"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA31"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA32"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA4"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA5"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA6"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA7"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA8"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/ENA9"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM1"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM10"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM11"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM12"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM13"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM14"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM15"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM16"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM17"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM18"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM19"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM2"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM20"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM21"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM22"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM23"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM24"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM25"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM26"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM27"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM28"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM29"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM3"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM30"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM31"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM32"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM4"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM5"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM6"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM7"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM8"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "/PWM9"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q1-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q11-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q12-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q16-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q17-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q18-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q19-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q2-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q20-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q21-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q22-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q23-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q24-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q25-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q26-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q27-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q28-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q29-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q3-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q30-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q31-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q32-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q33-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q4-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q5-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q6-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q7-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q8-Pad2)"
-      },
-      {
-        "netclass": "Servo Data",
-        "pattern": "Net-(Q9-Pad2)"
-      },
-      {
         "netclass": "Servo Power",
         "pattern": "+6V"
       },
@@ -884,24 +506,32 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Servo Power",
-        "pattern": "Net-(D10-Pad1)"
+        "netclass": "Other Power",
+        "pattern": "VDD"
       },
       {
-        "netclass": "Servo Power",
-        "pattern": "Net-(D13-Pad1)"
+        "netclass": "Other Power",
+        "pattern": "+3V3"
       },
       {
-        "netclass": "Servo Power",
-        "pattern": "Net-(D15-Pad1)"
+        "netclass": "Servo Data",
+        "pattern": "/ENA*"
       },
       {
-        "netclass": "Servo Power",
-        "pattern": "Net-(D17-Pad1)"
+        "netclass": "Servo Data",
+        "pattern": "/PWM*"
       },
       {
-        "netclass": "Servo Power",
-        "pattern": "Net-(D6-Pad1)"
+        "netclass": "Servo Data",
+        "pattern": "Net-(Q*-G)"
+      },
+      {
+        "netclass": "Other Power",
+        "pattern": "Net-(U1-AREF)"
+      },
+      {
+        "netclass": "Other Power",
+        "pattern": "Net-(D*)"
       }
     ]
   },
@@ -919,6 +549,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -950,7 +582,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
