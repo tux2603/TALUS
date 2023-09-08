@@ -1,4 +1,4 @@
-20915724352367975
+20922500960134073
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87541,8 +87541,36 @@ Integrated Circuit
 0
 8
 8
+level_shifter
+SOT-8-RS0102YH8_JRT
+
+RS0102YH8 
+0
+8
+8
+level_shifter
+SOT-8-RS0102YH8_JRT-L
+
+RS0102YH8 
+0
+8
+8
+level_shifter
+SOT-8-RS0102YH8_JRT-M
+
+RS0102YH8 
+0
+8
+8
 logo
 TALUS_POS_MINI
+
+
+0
+0
+0
+logo
+arc_logo
 
 
 0

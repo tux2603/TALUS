@@ -4,5 +4,5 @@
   (lib (name "xtal")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/xtal/ABLS2-16.000MHZ-D4Y-T.kicad_sym")(options "")(descr ""))
   (lib (name "mosfet")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/mosfet/2023-09-04_17-01-49.kicad_sym")(options "")(descr ""))
   (lib (name "screw_terminal")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/power/39920-0302.kicad_sym")(options "")(descr ""))
-  (lib (name "level_shifter")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/level_shifter/NCA9306DCH.kicad_sym")(options "")(descr ""))
+  (lib (name "level_shifter")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/level_shifter/2023-09-08_01-46-25.kicad_sym")(options "")(descr ""))
 )
